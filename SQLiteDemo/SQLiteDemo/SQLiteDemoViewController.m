@@ -32,6 +32,16 @@ static sqlite3 *database = nil;
 	// Do any additional setup after loading the view, typically from a nib.
     
     
+    
+    //=================================================================
+    
+    int i= 0;
+    float j = 0.1;
+    
+    
+    //=================================================================
+    
+    
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     appDelegate = (SQLiteDemoAppDelegate *)[[UIApplication sharedApplication] delegate];
